@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manikandan - Portfolio Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="nav-container container">
+            <div class="logo">Manikandan</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    
+    <section id="hero">
+        <div class="container hero-content">
+            <img src="profile.jpg" alt="Manikandan" class="hero-image">
+            <h1 class="hero-title">Manikandan</h1>
+            <h2 class="hero-subtitle">Web Developer & UI Designer</h2>
+            <!-- <p>I create beautiful, functional websites and applications with a focus on user experience and clean code.</p> -->
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work ⚙️ </a>
+                <a href="#contact" class="btn btn-secondary">Contact Me ☏ </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Hello! I'm Manikandan</h2>
+                    <!--    <p>I'm a passionate web developer with over 5 years of experience creating digital solutions for businesses and individuals. I specialize in front-end development but also have strong back-end skills.</p>
+                    <p>My approach combines technical expertise with creative design thinking to build applications that are both functional and delightful to use.</p>
+                    <p>When I'm not coding, you can find me hiking, reading, or experimenting with new technologies.</p>
+                    -->
+                    <p>As a motivated B.Tech IT student in my third year, I possess foundational knowledge in web development and practical experience gained through academic projects and internships. My passion lies in creating user-centric web interfaces, and I am committed to continuously learning new technologies. My skills include front-end web development, responsive web design, and interactive web interfaces, utilizing HTML, CSS, JavaScript, and React. I also bring strong soft skills such as flexibility, teamwork, problem-solving (including root cause analysis and debugging), and time management.</p>
+
+                    <p>I am pursuing a B.Tech in Information Technology from Anjalai Ammal Mahalingam Engineering College. My work experience includes a Frontend Developer Internship at Imaggar Technologies Pvt. Ltd. and ongoing internships in Embedded and IoT, and Core Java at Upskill Campus.</p>    
+
+                    <p>My projects include a Python-based Chatbot AI that connects with OpenAI or Google Gemini API for terminal-based conversational AI. I also hold certifications in IoT-Network Specialist Programme from Reliance Foundation, AI for All from Intel Technology Private Limited, and Licensed Software Engineering from Saylor Academy. My interests align with front-end web development, responsive web design, and interactive web interfaces. I am proficient in Tamil & English.</p>
+                
+                    <a href="resume.pdf" class="btn btn-accent">📕 Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <img src="abm.png" alt="About Me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category card">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <h3>Backend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python/Django</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Database Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <h3>Design & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git & GitHub</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <h3>Junior Developer</h3>
+                        <h4>AAMEC</h4>
+                        <p>As a third-year B.Tech IT student, I am a motivated individual with a strong foundation in web development, gained through academic projects and internships. I am passionate about creating user-centric web interfaces and am committed to continuous learning in new technologies. My skills include front-end web development, responsive web design, and interactive web interfaces, utilizing HTML, CSS, JavaScript, and React. I also possess strong soft skills such as flexibility, teamwork, problem-solving (including root cause analysis and debugging), and time management.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <div class="timeline-date">2023 - 2025</div>
+                        <h3>Projects, Certifications, and Interests</h3>
+                        <h4>Reliance Foundation,Intel Technology Private Limited,Saylor Academy</h4>
+                        <p>My projects include a Python-based Chatbot AI that connects with OpenAI or Google Gemini API for terminal-based conversational AI. I also hold certifications in IoT-Network Specialist Programme from Reliance Foundation, AI for All from Intel Technology Private Limited, and Licensed Software Engineering from Saylor Academy. My interests align with front-end web development, responsive web design, and interactive web interfaces.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <div class="timeline-date">2025 - Present</div>
+                        <h3>Web Developer</h3>
+                        <h4>Imaggar Technologies Pvt. Ltd.</h4>
+                        <p>Assisted in the development of web applications, fixed bugs, and implemented new features using JavaScript and PHP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="llm.png" alt="Chat-Bot" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Chat-Bot LLM</h3>
+                        <p>Chat-Bot LLM using Local LLM models.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1139&q=80" alt="Task Management App" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p>A drag-and-drop task management application with user authentication and real-time updates.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="webscrap.jpg" alt="Web Scrapping" class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">web Scrapping</h3>
+                        <p>A web scraping training in Python, covering HTML parsing, dynamic site automation, pagination, and data exports for downstream analytics</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Requests</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">BeautifulSoup</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>manikandantpngr@outlook.in</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9095176016</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Valangaiman, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form card">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2025 Manikandan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js">    </script>
+       
+    
+</body>
+</html>
